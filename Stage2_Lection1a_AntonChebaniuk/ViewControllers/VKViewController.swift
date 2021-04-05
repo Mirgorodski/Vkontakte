@@ -20,6 +20,7 @@ class VkLoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         retreiveData()
+        // check for update
 
         // Do any additional setup after loading the view.
         webView.navigationDelegate = self
